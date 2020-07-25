@@ -61,11 +61,11 @@ steps:
 #       zipAfterPublish: true
 #       publishWebProjects: false
 
-- template:  templates/build.yaml
+- template:  templates/build.yml
   parameters:
     buildConfiguration: 'Debug'
 
-- template:  templates/build.yaml
+- template:  templates/build.yml
   parameters:
     buildConfiguration: 'Release'
 
